@@ -1,0 +1,11 @@
+<suite name="05_Media Server" parallel="false" fileFragmentationLevel="2" preserve-order="true">
+  <listeners>  
+    <listener class-name="org.uncommons.reportng.HTMLReporter" />  
+	<listener class-name="com.Seleniumhelper.listeners.MyRetryListener" />
+  </listeners> 
+ <!--<test name="MS01_MediaServer_GUIElemets_DefaultValues"><classes><class name="com.administration.configuration.mediaserver.MS01_MediaServer_GUIElemets_DefaultValues"/></classes></test>-->
+ <test name="MS02_EnableMediaServer"><classes><class name="com.administration.configuration.mediaserver.MS02_EnableMediaServer"/></classes></test>
+ <test name="MS03_MediaSever_UploadLanguageFile"><classes><class name="com.administration.configuration.mediaserver.MS03_MediaSever_UploadLanguageFile"/></classes></test>
+ <test name="MS04_MediaSever_DeleteLanguage"><classes><class name="com.administration.configuration.mediaserver.MS04_MediaSever_DeleteLanguage"/></classes></test>
+ <!--<test name="MS05_MediaServer_ChangeConfiguration"><classes><class name="com.administration.configuration.mediaserver.MS05_MediaServer_ChangeConfiguration"/></classes></test>-->
+  </suite>

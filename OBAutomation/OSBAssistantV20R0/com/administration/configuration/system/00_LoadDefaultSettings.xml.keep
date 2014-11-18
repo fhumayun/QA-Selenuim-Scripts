@@ -1,0 +1,7 @@
+<suite name="00_LoadDefaultSettings" parallel="false" fileFragmentationLevel="2" preserve-order="true">
+  <listeners>  
+    <listener class-name="org.uncommons.reportng.HTMLReporter" />  
+	<listener class-name="com.Seleniumhelper.listeners.MyRetryListener" />
+  </listeners> 
+ <test name="ST_ImportMode_SBCProxy"><classes><class name="com.administration.configuration.system.ST_ImportMode_SBCProxy"/></classes></test>
+  </suite>

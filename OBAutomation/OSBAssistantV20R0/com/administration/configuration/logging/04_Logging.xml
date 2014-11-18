@@ -1,0 +1,12 @@
+<suite name="04_Logging" parallel="false" fileFragmentationLevel="2" preserve-order="true">
+  <listeners>  
+    <listener class-name="org.uncommons.reportng.HTMLReporter" />  
+	<listener class-name="com.Seleniumhelper.listeners.MyRetryListener" />
+  </listeners> 
+  <test name="LG01_Logging_GUIElemets_DefaultValues"><classes><class name="com.administration.configuration.logging.LG01_Logging_GUIElemets_DefaultValues"/></classes></test>
+ <test name="LG02_Logging_Settings"><classes><class name="com.administration.configuration.logging.LG02_Logging_Settings"/></classes></test>
+ <test name="LG03_Logging_Debugging"><classes><class name="com.administration.configuration.logging.LG03_Logging_Debugging"/></classes></test>
+ <test name="LG04_Logging_ContiniousTracing"><classes><class name="com.administration.configuration.logging.LG04_Logging_ContiniousTracing"/></classes></test>
+ <test name="LG05_Logging_OnDemandTrace"><classes><class name="com.administration.configuration.logging.LG05_Logging_OnDemandTrace"/></classes></test>
+ <test name="LG06_Logging_BLS_BLC_Entries"><classes><class name="com.administration.configuration.logging.LG06_Logging_BLS_BLC_Entries"/></classes></test>
+  </suite>

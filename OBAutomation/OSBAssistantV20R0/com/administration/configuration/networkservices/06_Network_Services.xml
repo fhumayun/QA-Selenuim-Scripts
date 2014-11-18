@@ -1,0 +1,24 @@
+<suite name="06_Network Services" parallel="false" fileFragmentationLevel="2" preserve-order="true">
+  <listeners>  
+    <listener class-name="org.uncommons.reportng.HTMLReporter" />  
+	<listener class-name="com.Seleniumhelper.listeners.MyRetryListener" />
+  </listeners> 
+ <test name="NS01_NetworkServices_GUIElemets_DefaultValues"><classes><class name="com.administration.configuration.networkservices.NS01_NetworkServices_GUIElemets_DefaultValues"/></classes></test>
+ <test name="NS02_NetworkServices_AddRoute"><classes><class name="com.administration.configuration.networkservices.NS02_NetworkServices_AddRoute"/></classes></test>
+ <test name="NS03_NetworkServices_EditRoute"><classes><class name="com.administration.configuration.networkservices.NS03_NetworkServices_EditRoute"/></classes></test>
+ <test name="NS04_NetworkServices_DeleteRoute"><classes><class name="com.administration.configuration.networkservices.NS04_NetworkServices_DeleteRoute"/></classes></test>
+ <test name="NS05_NetworkServices_AddTrafficShaping"><classes><class name="com.administration.configuration.networkservices.NS05_NetworkServices_AddTrafficShaping"/></classes></test>
+ <test name="NS06_NetworkServices_TrafficShapingFilters"><classes><class name="com.administration.configuration.networkservices.NS06_NetworkServices_TrafficShapingFilters"/></classes></test>
+ <test name="NS07_NetworkServices_DeleteTrafficShaping"><classes><class name="com.administration.configuration.networkservices.NS07_NetworkServices_DeleteTrafficShaping"/></classes></test>
+ <test name="NS08_NetworkServices_LocalNTPServer"><classes><class name="com.administration.configuration.networkservices.NS08_NetworkServices_LocalNTPServer"/></classes></test>
+ <test name="NS09_NetworkServices_DNSClientConfiguration"><classes><class name="com.administration.configuration.networkservices.NS09_NetworkServices_DNSClientConfiguration"/></classes></test>
+ <test name="NS10_NetworkServices_DNSForwardIPlist"><classes><class name="com.administration.configuration.networkservices.NS10_NetworkServices_DNSForwardIPlist"/></classes></test>
+ <test name="NS11_NetworkServices_DNSZones"><classes><class name="com.administration.configuration.networkservices.NS11_NetworkServices_DNSZones"/></classes></test>
+ <test name="NS12_NetworkServices_EnableDHCP"><classes><class name="com.administration.configuration.networkservices.NS12_NetworkServices_EnableDHCP"/></classes></test>
+ <test name="NS13_NetworkServices_DHCPAddStaticIPList"><classes><class name="com.administration.configuration.networkservices.NS13_NetworkServices_DHCPAddStaticIPList"/></classes></test>
+ <test name="NS14_NetworkServices_DHCPModifyStaticIPList"><classes><class name="com.administration.configuration.networkservices.NS14_NetworkServices_DHCPModifyStaticIPList"/></classes></test>
+ <test name="NS15_NetworkServices_DHCPDeleteStaticIPList"><classes><class name="com.administration.configuration.networkservices.NS15_NetworkServices_DHCPDeleteStaticIPList"/></classes></test>
+ <test name="NS16_NetworkServices_DHCPAddDNSServerList"><classes><class name="com.administration.configuration.networkservices.NS16_NetworkServices_DHCPAddDNSServerList"/></classes></test>
+ <test name="NS17_NetworkServices_DHCPDeleteDNSServerList"><classes><class name="com.administration.configuration.networkservices.NS17_NetworkServices_DHCPDeleteDNSServerList"/></classes></test>
+ <test name="NS18_NetworkServices_DisableDHCP"><classes><class name="com.administration.configuration.networkservices.NS18_NetworkServices_DisableDHCP"/></classes></test>
+   </suite>

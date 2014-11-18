@@ -1,0 +1,19 @@
+<suite name="03_Alarms" parallel="false" fileFragmentationLevel="2" preserve-order="true">
+  <listeners>  
+    <listener class-name="org.uncommons.reportng.HTMLReporter" />  
+	<listener class-name="com.Seleniumhelper.listeners.MyRetryListener" />
+  </listeners> 
+ <test name="AL01_Alarms_GUIElemets_DefaultValues"><classes><class name="com.administration.configuration.alarms.AL01_Alarms_GUIElemets_DefaultValues"/></classes></test>
+ <test name="AL02_Alarms_CheckActivation"><classes><class name="com.administration.configuration.alarms.AL02_Alarms_CheckActivation"/></classes></test>
+ <test name="AL03_Alarms_ChangeSettings"><classes><class name="com.administration.configuration.alarms.AL03_Alarms_ChangeSettings"/></classes></test>
+ <test name="AL04_Alarms_Settings_Validation"><classes><class name="com.administration.configuration.alarms.AL04_Alarms_Settings_Validation"/></classes></test>
+ <test name="AL05_Alarms_Add_Blocked_Trap_Destination"><classes><class name="com.administration.configuration.alarms.AL05_Alarms_Add_Blocked_Trap_Destination"/></classes></test>
+ <test name="AL06_Alarms_Add_Unblocked_Trap_Destination"><classes><class name="com.administration.configuration.alarms.AL06_Alarms_Add_Unblocked_Trap_Destination"/></classes></test>
+ <test name="AL07_Alarms_Modify_Blocked_Trap_Destination"><classes><class name="com.administration.configuration.alarms.AL07_Alarms_Modify_Blocked_Trap_Destination"/></classes></test>
+ <test name="AL08_Alarms_Modify_Unblocked_Trap_Destination"><classes><class name="com.administration.configuration.alarms.AL08_Alarms_Modify_Unblocked_Trap_Destination"/></classes></test>
+ <test name="AL09_Alarms_Delete_Blocked_Trap_Destination"><classes><class name="com.administration.configuration.alarms.AL09_Alarms_Delete_Blocked_Trap_Destination"/></classes></test>
+ <test name="AL10_Alarms_Delete_Unblocked_Trap_Destination"><classes><class name="com.administration.configuration.alarms.AL10_Alarms_Delete_Unblocked_Trap_Destination"/></classes></test>
+ <test name="AL11_Alarms_Trap_Destination_Limit"><classes><class name="com.administration.configuration.alarms.AL11_Alarms_Trap_Destination_Limit"/></classes></test>
+ <test name="AL12_Alarms_Delete_Multi_Trap_Destinations"><classes><class name="com.administration.configuration.alarms.AL12_Alarms_Delete_Multi_Trap_Destinations"/></classes></test>
+ <test name="AL13_Alarms_Trap_Destination_Validation"><classes><class name="com.administration.configuration.alarms.AL13_Alarms_Trap_Destination_Validation"/></classes></test>
+   </suite>

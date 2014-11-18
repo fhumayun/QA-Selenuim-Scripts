@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Properties>
+    <constants
+    	
+		Enabled="true"
+		IP="10.100.123.84"
+		BROWSER="Firefox"
+		Locale="en"
+		AdminUser="administrator"
+		domain="system"
+		AdminPass="Asd123!."
+    	
+		Synchronization="false"
+		ENABLELOGS="true"
+		CHECKHELP="false"
+		
+		SSHUSER="root"
+		SSHPASSWORD="siemens*"
+		REMOTEFOLDER="/tmp"
+		LOCALFOLDER="C:/"
+	
+		
+		SPEED="0"
+		TIMEOUT="30000"
+		WAITFORPAGETOLOAD="60000"
+		TESTTIMEOUT="900000"
+		
+		TITLE="CMP"
+		FFProfile="default"
+		FTPSERVER="10.11.250.14"
+	 	FTPUSER="cmpAutomationUser"
+		FTPPASS="Asd123!."
+
+		SNMPSERVER1="192.168.100.96"
+		SNMPSERVER2="192.168.100.96"
+		XPRESSIONSERVER="10.11.250.16"
+		
+		Switch="All systems"
+		BranchSelector="BO_OSB250-02"
+		ModeSelector="Proxy"
+		BranchVersion="V2.R0"
+		VERSION="V5"
+     />
+</Properties>

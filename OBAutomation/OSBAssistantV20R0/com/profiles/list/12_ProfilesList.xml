@@ -1,0 +1,22 @@
+<suite name="12_ProfilesList" parallel="false" fileFragmentationLevel="2" preserve-order="true">
+  <listeners>  
+    <listener class-name="org.uncommons.reportng.HTMLReporter" />  
+	<listener class-name="com.Seleniumhelper.listeners.MyRetryListener" />
+  </listeners> 
+ <test name="LS01_ProfilesList_GUIElemets_DefaultValues"><classes><class name="com.profiles.list.LS01_ProfilesList_GUIElemets_DefaultValues"/></classes></test>
+ <test name="LS02_ProfilesList_CreateProfile_ModeBranchSBC"><classes><class name="com.profiles.list.LS02_ProfilesList_CreateProfile_ModeBranchSBC"/></classes></test>
+ <test name="LS03_ProfilesList_CreateProfile_ModeSBCProxy"><classes><class name="com.profiles.list.LS03_ProfilesList_CreateProfile_ModeSBCProxy"/></classes></test>
+ <test name="LS04_ProfilesList_CreateProfile_ModeProxy"><classes><class name="com.profiles.list.LS04_ProfilesList_CreateProfile_ModeProxy"/></classes></test>
+ <test name="LS05_ProfilesList_CreateProfile_ModeProxyACD"><classes><class name="com.profiles.list.LS05_ProfilesList_CreateProfile_ModeProxyACD"/></classes></test>
+ <test name="LS06_ProfilesList_EditProfile_ModeBranchSBC"><classes><class name="com.profiles.list.LS06_ProfilesList_EditProfile_ModeBranchSBC"/></classes></test>
+ <test name="LS07_ProfilesList_EditProfile_ModeSBCProxy"><classes><class name="com.profiles.list.LS07_ProfilesList_EditProfile_ModeSBCProxy"/></classes></test>
+ <test name="LS08_ProfilesList_EditProfile_ModeProxy"><classes><class name="com.profiles.list.LS08_ProfilesList_EditProfile_ModeProxy"/></classes></test>
+ <test name="LS09_ProfilesList_EditProfile_ModeProxyACD"><classes><class name="com.profiles.list.LS09_ProfilesList_EditProfile_ModeProxyACD"/></classes></test>
+ <test name="LS10_ProfilesList_CheckFiltering"><classes><class name="com.profiles.list.LS10_ProfilesList_CheckFiltering"/></classes></test>
+ <test name="LS11_ProfilesList_CheckSorting"><classes><class name="com.profiles.list.LS11_ProfilesList_CheckSorting"/></classes></test>
+ <test name="LS12_ProfilesList_CheckPaging"><classes><class name="com.profiles.list.LS12_ProfilesList_CheckPaging"/></classes></test>
+ <test name="LS13_ProfilesList_DeleteProfile_ModeBranchSBC"><classes><class name="com.profiles.list.LS13_ProfilesList_DeleteProfile_ModeBranchSBC"/></classes></test>
+ <test name="LS14_ProfilesList_DeleteProfile_ModeSBCProxy"><classes><class name="com.profiles.list.LS14_ProfilesList_DeleteProfile_ModeSBCProxy"/></classes></test>
+ <test name="LS15_ProfilesList_DeleteProfile_ModeProxy"><classes><class name="com.profiles.list.LS15_ProfilesList_DeleteProfile_ModeProxy"/></classes></test>
+ <test name="LS16_ProfilesList_DeleteProfile_ModeProxyACD"><classes><class name="com.profiles.list.LS16_ProfilesList_DeleteProfile_ModeProxyACD"/></classes></test>
+   </suite>

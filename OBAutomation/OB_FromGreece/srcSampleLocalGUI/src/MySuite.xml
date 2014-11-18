@@ -1,0 +1,7 @@
+<suite name="Test Suite" parallel="false" fileFragmentationLevel="2">
+   <listeners>  
+    <listener class-name="org.uncommons.reportng.HTMLReporter" />  
+   </listeners> 
+  <test name="Test Class 1"><classes><class name="MyTest"/></classes></test>
+  <test name="Test Class 2"><classes><class name="MyTest2"/></classes></test>
+    </suite>

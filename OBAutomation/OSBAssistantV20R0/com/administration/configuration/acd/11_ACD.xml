@@ -1,0 +1,26 @@
+<suite name="11_ACD" parallel="false" fileFragmentationLevel="2" preserve-order="true">
+  <listeners>  
+    <listener class-name="org.uncommons.reportng.HTMLReporter" />  
+	<listener class-name="com.Seleniumhelper.listeners.MyRetryListener" />
+  </listeners> 
+ <test name="ACD00_Voip_ChangeModeToACD"><classes><class name="com.administration.configuration.acd.ACD00_Voip_ChangeModeToACD"/></classes></test>
+ <test name="ACD01_GUIElemets_DefaultValues"><classes><class name="com.administration.configuration.acd.ACD01_GUIElemets_DefaultValues"/></classes></test>
+ <test name="ACD02_ConfigureAgentSettings"><classes><class name="com.administration.configuration.acd.ACD02_ConfigureAgentSettings"/></classes></test>
+ <test name="ACD03_UploadAudioFiles"><classes><class name="com.administration.configuration.acd.ACD03_UploadAudioFiles"/></classes></test>
+ <test name="ACD04_AddQueue"><classes><class name="com.administration.configuration.acd.ACD04_AddQueue"/></classes></test>
+ <test name="ACD05_AddQueueFails"><classes><class name="com.administration.configuration.acd.ACD05_AddQueueFails"/></classes></test>
+ <test name="ACD06_EditQueue"><classes><class name="com.administration.configuration.acd.ACD06_EditQueue"/></classes></test>
+ <test name="ACD07_AddProfile"><classes><class name="com.administration.configuration.acd.ACD07_AddProfile"/></classes></test>
+ <test name="ACD08_AddProfileFails"><classes><class name="com.administration.configuration.acd.ACD08_AddProfileFails"/></classes></test>
+ <test name="ACD09_EditProfile"><classes><class name="com.administration.configuration.acd.ACD09_EditProfile"/></classes></test>
+ <test name="ACD10_AddAgent"><classes><class name="com.administration.configuration.acd.ACD10_AddAgent"/></classes></test>
+ <test name="ACD11_EditAgent"><classes><class name="com.administration.configuration.acd.ACD11_EditAgent"/></classes></test>
+ <test name="ACD12_DeleteQueueFails"><classes><class name="com.administration.configuration.acd.ACD12_DeleteQueueFails"/></classes></test>
+ <test name="ACD13_DeleteProfileFails"><classes><class name="com.administration.configuration.acd.ACD13_DeleteProfileFails"/></classes></test>
+ <test name="ACD14_ShowAgentQueueStatus"><classes><class name="com.administration.configuration.acd.ACD14_ShowAgentQueueStatus"/></classes></test>
+ <test name="ACD15_CheckFiltering"><classes><class name="com.administration.configuration.acd.ACD15_CheckFiltering"/></classes></test>
+ <test name="ACD16_DeleteAgent"><classes><class name="com.administration.configuration.acd.ACD16_DeleteAgent"/></classes></test>
+ <test name="ACD17_DeleteProfile"><classes><class name="com.administration.configuration.acd.ACD17_DeleteProfile"/></classes></test>
+ <test name="ACD18_DeleteQueue"><classes><class name="com.administration.configuration.acd.ACD18_DeleteQueue"/></classes></test>
+ <test name="ACD19_DeleteAudioFiles"><classes><class name="com.administration.configuration.acd.ACD19_DeleteAudioFiles"/></classes></test>
+   </suite>

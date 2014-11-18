@@ -1,0 +1,35 @@
+{
+  "name": "HiC QA : hic_id Injector",
+  "version": "0.0.2",
+  "manifest_version": 2,
+  "description": "This extension inserts an incrementing id tag to all DOM elements, but skips any that already have it",
+  "homepage_url": "http://hiconversion.com",
+  "icons": {
+    "16": "icons/icon_016.png",
+    "48": "icons/icon_048.png",
+    "128": "icons/icon_128.png"
+  },
+  "default_locale": "en",
+  "background": {
+    "page": "src/bg/background.html",
+    "persistent": true
+  },
+  "page_action": {
+    "default_icon": "icons/icon_016.png",
+    "default_title": "page action demo",
+    "default_popup": "src/page_action/page_action.html"
+  },
+  "permissions": [
+    "https://*/*,http://*/*"
+  ],
+  "content_scripts": [
+    {
+      "matches": [
+        "https://www.google.com/*"
+      ],
+      "js": [
+        "src/inject/inject.js"
+      ]
+    }
+  ]
+}

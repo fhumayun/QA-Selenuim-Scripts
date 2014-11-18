@@ -1,0 +1,10 @@
+<suite name="19_CMP Nodes" parallel="false" fileFragmentationLevel="2" preserve-order="true">
+  <listeners>  
+    <listener class-name="org.uncommons.reportng.HTMLReporter" />  
+	<listener class-name="com.Seleniumhelper.listeners.MyRetryListener" />
+  </listeners> 
+ <test name="ND01_Nodes_CheckOpenBranchNodes"><classes><class name="com.administration.cmp.nodes.ND01_Nodes_CheckOpenBranchNodes"/></classes></test>
+ <test name="ND02_Nodes_CheckAlarms"><classes><class name="com.administration.cmp.nodes.ND02_Nodes_CheckAlarms"/></classes></test>
+ <test name="ND03_Nodes_CheckVersion"><classes><class name="com.administration.cmp.nodes.ND03_Nodes_CheckVersion"/></classes></test>
+ <test name="ND04_Nodes_CheckServicesStatus"><classes><class name="com.administration.cmp.nodes.ND04_Nodes_CheckServicesStatus"/></classes></test>
+     </suite>

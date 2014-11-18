@@ -1,0 +1,19 @@
+<suite name="08_Survivability" parallel="false" fileFragmentationLevel="2" preserve-order="true">	
+  <listeners>  
+    <listener class-name="org.uncommons.reportng.HTMLReporter" />  
+	<listener class-name="com.Seleniumhelper.listeners.MyRetryListener" />
+  </listeners>  
+ <test name="SV01_Survivability_GUIElemets_DefaultValues"><classes><class name="com.administration.configuration.survivability.SV01_Survivability_GUIElemets_DefaultValues"/></classes></test>
+ <test name="SV02_Survivability_AddMLHG"><classes><class name="com.administration.configuration.survivability.SV02_Survivability_AddMLHG"/></classes></test>
+ <test name="SV03_Survivability_EditMLHG"><classes><class name="com.administration.configuration.survivability.SV03_Survivability_EditMLHG"/></classes></test>
+ <test name="SV04_Survivability_DeleteMLHG"><classes><class name="com.administration.configuration.survivability.SV04_Survivability_DeleteMLHG"/></classes></test>
+ <test name="SV05_Survivability_AddEmergencyCalling"><classes><class name="com.administration.configuration.survivability.SV05_Survivability_AddEmergencyCalling"/></classes></test>
+ <test name="SV06_Survivability_EditEmergencyCalling"><classes><class name="com.administration.configuration.survivability.SV06_Survivability_EditEmergencyCalling"/></classes></test>
+ <test name="SV07_Survivability_DeleteEmergencyCalling"><classes><class name="com.administration.configuration.survivability.SV07_Survivability_DeleteEmergencyCalling"/></classes></test>
+ <test name="SV08_Survivability_AddEmergencyNumber"><classes><class name="com.administration.configuration.survivability.SV08_Survivability_AddEmergencyNumber"/></classes></test>
+ <test name="SV09_Survivability_DeleteEmergencyNumber"><classes><class name="com.administration.configuration.survivability.SV09_Survivability_DeleteEmergencyNumber"/></classes></test>
+ <test name="SV10_Survivability_ConfigureGeneralSFTPBillingFileSettings"><classes><class name="com.administration.configuration.survivability.SV10_Survivability_ConfigureGeneralSFTPBillingFileSettings"/></classes></test>
+ <test name="SV11_Survivability_DigitTranslation"><classes><class name="com.administration.configuration.survivability.SV11_Survivability_DigitTranslation"/></classes></test>
+ <test name="SV12_Survivability_BillingServers"><classes><class name="com.administration.configuration.survivability.SV12_Survivability_BillingServers"/></classes></test>
+ <test name="SV13_Survivability_MusicOnHold"><classes><class name="com.administration.configuration.survivability.SV13_Survivability_MusicOnHold"/></classes></test>
+ </suite>

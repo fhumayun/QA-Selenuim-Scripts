@@ -1,0 +1,12 @@
+{
+  "name": "hic-qa-ff",
+  "title": "HiConversion QA for Firefox",
+  "main":"lib/main.js",
+  "id": "jid1-gcO5bDQCIiXkpg",
+  "description": "This extension inserts an incrementing id tag to all DOM elements, but skips any that already have it",
+  "author": "Faisal Humayun",
+  "license": "MPL 2.0",
+  "version": "0.2",
+  "icon":"data/icon32.png",
+  "icon64":"data/icon64.png"
+}

@@ -1,0 +1,31 @@
+<suite name="07_Security" parallel="false" fileFragmentationLevel="2" preserve-order="true">
+  <listeners>  
+    <listener class-name="org.uncommons.reportng.HTMLReporter" />  
+	<listener class-name="com.Seleniumhelper.listeners.MyRetryListener" />
+  </listeners>  
+ <test name="SC01_Security_GUIElemets_DefaultValues"><classes><class name="com.administration.configuration.security.SC01_Security_GUIElemets_DefaultValues"/></classes></test>
+ <test name="SC02_Security_CreateTLSCertificates"><classes><class name="com.administration.configuration.security.SC02_Security_CreateTLSCertificates"/></classes></test>
+ <test name="SC03_Security_AssignTLSCertificates"><classes><class name="com.administration.configuration.security.SC03_Security_AssignTLSCertificates"/></classes></test>
+ <test name="SC04_Security_CreateSecretFileCertificate"><classes><class name="com.administration.configuration.security.SC04_Security_CreateSecretFileCertificate"/></classes></test>
+ <test name="SC05_Security_AssignSecretFileCertificate"><classes><class name="com.administration.configuration.security.SC05_Security_AssignSecretFileCertificate"/></classes></test>
+ <test name="SC06_Security_UploadTLSCertificates"><classes><class name="com.administration.configuration.security.SC06_Security_UploadTLSCertificates"/></classes></test>
+ <test name="SC07_Security_UploadSecretFileCertificates"><classes><class name="com.administration.configuration.security.SC07_Security_UploadSecretFileCertificates"/></classes></test>
+ <test name="SC08_Security_DeleteTLSCertificates"><classes><class name="com.administration.configuration.security.SC08_Security_DeleteTLSCertificates"/></classes></test>
+ <test name="SC09_Security_DeleteSecretFileCertificate"><classes><class name="com.administration.configuration.security.SC09_Security_DeleteSecretFileCertificate"/></classes></test>
+ <test name="SC10_Security_EnableSnort"><classes><class name="com.administration.configuration.security.SC10_Security_EnableSnort"/></classes></test>
+ <test name="SC11_Security_ConfigureWhiteList"><classes><class name="com.administration.configuration.security.SC11_Security_ConfigureWhiteList"/></classes></test>
+ <test name="SC12_Security_DisableSnort"><classes><class name="com.administration.configuration.security.SC12_Security_DisableSnort"/></classes></test>
+ <test name="SC13_Security_Firewall_ConfigureConnections"><classes><class name="com.administration.configuration.security.SC13_Security_Firewall_ConfigureConnections"/></classes></test>
+ <test name="SC14_Security_ConfigureFirewall_BlackList"><classes><class name="com.administration.configuration.security.SC14_Security_ConfigureFirewall_BlackList"/></classes></test>
+ <test name="SC15_Security_ConfigureFirewall_WhiteList"><classes><class name="com.administration.configuration.security.SC15_Security_ConfigureFirewall_WhiteList"/></classes></test>
+ <test name="SC16_Security_AddPortFW"><classes><class name="com.administration.configuration.security.SC16_Security_AddPortFW"/></classes></test>
+ <test name="SC17_Security_ModifyPortFW"><classes><class name="com.administration.configuration.security.SC17_Security_ModifyPortFW"/></classes></test>
+ <test name="SC18_Security_DeletePortFW"><classes><class name="com.administration.configuration.security.SC18_Security_DeletePortFW"/></classes></test>
+ <test name="SC19_Security_AddOpenVPN"><classes><class name="com.administration.configuration.security.SC19_Security_AddOpenVPN"/></classes></test>
+ <test name="SC20_Security_ModifyOpenVPN"><classes><class name="com.administration.configuration.security.SC20_Security_ModifyOpenVPN"/></classes></test>
+ <test name="SC21_Security_DeleteOpenVPN"><classes><class name="com.administration.configuration.security.SC21_Security_DeleteOpenVPN"/></classes></test>
+ <test name="SC22_Security_AddIPsec"><classes><class name="com.administration.configuration.security.SC22_Security_AddIPsec"/></classes></test>
+ <test name="SC23_Security_ModifyIPsec"><classes><class name="com.administration.configuration.security.SC23_Security_ModifyIPsec"/></classes></test>
+ <test name="SC24_Security_DeleteIPsec"><classes><class name="com.administration.configuration.security.SC24_Security_DeleteIPsec"/></classes></test>
+ <test name="SC25_Security_DeleteRemainingUserCertificates"><classes><class name="com.administration.configuration.security.SC25_Security_DeleteRemainingUserCertificates"/></classes></test>
+   </suite>

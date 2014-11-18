@@ -1,0 +1,11 @@
+<suite name="17_ProfilesList_2" parallel="false" fileFragmentationLevel="2" preserve-order="true">
+  <listeners>  
+    <listener class-name="org.uncommons.reportng.HTMLReporter" />  
+	<listener class-name="com.Seleniumhelper.listeners.MyRetryListener" />
+  </listeners> 
+ <test name="LS17_ProfilesList_CloneProfile_ModeBranchSBC"><classes><class name="com.profiles.list.LS17_ProfilesList_CloneProfile_ModeBranchSBC"/></classes></test>
+ <test name="LS18_ProfilesList_CloneProfile_ModeSBCProxy"><classes><class name="com.profiles.list.LS18_ProfilesList_CloneProfile_ModeSBCProxy"/></classes></test>
+ <test name="LS19_ProfilesList_CloneProfile_ModeProxy"><classes><class name="com.profiles.list.LS19_ProfilesList_CloneProfile_ModeProxy"/></classes></test>
+ <test name="LS20_ProfilesList_CloneProfile_ModeProxyACD"><classes><class name="com.profiles.list.LS20_ProfilesList_CloneProfile_ModeProxyACD"/></classes></test>
+ <test name="LS21_ProfilesList_DeleteAllProfiles"><classes><class name="com.profiles.list.LS21_ProfilesList_DeleteAllProfiles"/></classes></test>
+    </suite>

@@ -1,0 +1,9 @@
+<suite name="02_Management" parallel="false" fileFragmentationLevel="2" preserve-order="true">
+  <listeners>  
+    <listener class-name="org.uncommons.reportng.HTMLReporter" />  
+	<listener class-name="com.Seleniumhelper.listeners.MyRetryListener" />
+  </listeners> 
+ <test name="MG01_Management_GUIElements_DefaultValues"><classes><class name="com.administration.management.MG01_Management_GUIElements_DefaultValues"/></classes></test>
+ <test name="MG02_Management_GUIElements_ShowSubscribers"><classes><class name="com.administration.management.MG02_Management_GUIElements_ShowSubscribers"/></classes></test>
+ <test name="MG03_Management_GancelChangesButton"><classes><class name="com.administration.management.MG03_Management_GancelChangesButton"/></classes></test>
+   </suite>

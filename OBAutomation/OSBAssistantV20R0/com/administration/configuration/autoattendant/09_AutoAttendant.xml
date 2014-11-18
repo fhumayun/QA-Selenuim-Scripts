@@ -1,0 +1,18 @@
+<suite name="09_Auto Attendant" parallel="false" fileFragmentationLevel="2" preserve-order="true">
+  <listeners>  
+    <listener class-name="org.uncommons.reportng.HTMLReporter" />  
+	<listener class-name="com.Seleniumhelper.listeners.MyRetryListener" />
+  </listeners> 
+  <test name="AT01_AutoAttendant_GUIElemets_DefaultValues"><classes><class name="com.administration.configuration.autoattendant.AT01_AutoAttendant_GUIElemets_DefaultValues"/></classes></test>
+  <test name="AT02_EnableAutoAttendant"><classes><class name="com.administration.configuration.autoattendant.AT02_EnableAutoAttendant"/></classes></test>
+  <test name="AT03_AutoAttendant_AddAnnouncement"><classes><class name="com.administration.configuration.autoattendant.AT03_AutoAttendant_AddAnnouncement"/></classes></test>
+  <test name="AT04_AutoAttendant_DeleteAnnouncement"><classes><class name="com.administration.configuration.autoattendant.AT04_AutoAttendant_DeleteAnnouncement"/></classes></test>
+  <test name="AT05_AutoAttendant_CreateMenus"><classes><class name="com.administration.configuration.autoattendant.AT05_AutoAttendant_CreateMenus"/></classes></test>
+  <test name="AT06_AutoAttendant_ModifyMenu"><classes><class name="com.administration.configuration.autoattendant.AT06_AutoAttendant_ModifyMenu"/></classes></test>
+  <test name="AT07_AutoAttendant_CreateRouting"><classes><class name="com.administration.configuration.autoattendant.AT07_AutoAttendant_CreateRouting"/></classes></test>
+  <test name="AT08_AutoAttendant_ModifyRouting"><classes><class name="com.administration.configuration.autoattendant.AT08_AutoAttendant_ModifyRouting"/></classes></test>
+  <test name="AT09_AutoAttendant_DeleteUsedMenuFails"><classes><class name="com.administration.configuration.autoattendant.AT09_AutoAttendant_DeleteUsedMenuFails"/></classes></test>
+  <test name="AT10_AutoAttendant_DeleteRouting"><classes><class name="com.administration.configuration.autoattendant.AT10_AutoAttendant_DeleteRouting"/></classes></test>
+  <test name="AT11_AutoAttendant_DeleteMenus"><classes><class name="com.administration.configuration.autoattendant.AT11_AutoAttendant_DeleteMenus"/></classes></test>
+  <test name="AT12_DisableAutoAttendant"><classes><class name="com.administration.configuration.autoattendant.AT12_DisableAutoAttendant"/></classes></test>
+     </suite>

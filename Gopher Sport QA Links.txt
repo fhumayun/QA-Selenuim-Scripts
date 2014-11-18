@@ -1,0 +1,9 @@
+Gopher Sport QA Links
+
+Baseline	http://www.gophersport.com/category/balls-dodgeballs?r=1&hiconversion_baseline=true&hiconversion_flicker=visibility&hiconversion_flow=MTZJFB1Ii5&hiconversion_include=true&hiconversion_page=wJX810ybXu&hiconversion_test=true	 
+EV - Category View - EV1 - List View
+	http://www.gophersport.com/category/balls-dodgeballs?r=1&hiconversion_alternate=0LS54UaI9C&hiconversion_baseline=true&hiconversion_flicker=visibility&hiconversion_flow=MTZJFB1Ii5&hiconversion_include=true&hiconversion_page=wJX810ybXu&hiconversion_test=true	 
+PJ - Product Panes - PJ1 - Auto Height
+	http://www.gophersport.com/category/balls-dodgeballs?r=1&hiconversion_alternate=48yQiCO9aF&hiconversion_baseline=true&hiconversion_flicker=visibility&hiconversion_flow=MTZJFB1Ii5&hiconversion_include=true&hiconversion_page=wJX810ybXu&hiconversion_test=true	 
+CA - Major CTA - CA1 - Emphasize
+	http://www.gophersport.com/category/balls-dodgeballs?r=1&hiconversion_alternate=7UwNhUjoWG&hiconversion_baseline=true&hiconversion_flicker=visibility&hiconversion_flow=MTZJFB1Ii5&hiconversion_include=true&hiconversion_page=wJX810ybXu&hiconversion_test=true

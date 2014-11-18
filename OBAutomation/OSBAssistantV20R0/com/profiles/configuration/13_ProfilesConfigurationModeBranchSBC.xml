@@ -1,0 +1,21 @@
+<suite name="13_ProfilesConfigurationModeBranchSBC" parallel="false" fileFragmentationLevel="2" preserve-order="true">
+  <listeners>  
+    <listener class-name="org.uncommons.reportng.HTMLReporter" />  
+	<listener class-name="com.Seleniumhelper.listeners.MyRetryListener" />
+  </listeners> 
+ <test name="ST_ImportMode_BranchSBC"><classes><class name="com.administration.configuration.system.ST_ImportMode_BranchSBC"/></classes></test>
+ <test name="PC_AL_01_ProfilesConfiguration_Alarms_CreateProfile_ModeBranchSBC"><classes><class name="com.profiles.configuration.alarms.PC_AL_01_ProfilesConfiguration_Alarms_CreateProfile_ModeBranchSBC"/></classes></test>
+ <test name="PC_AL_02_ProfilesConfiguration_Alarms_ConfigureProfile_ModeBranchSBC"><classes><class name="com.profiles.configuration.alarms.PC_AL_02_ProfilesConfiguration_Alarms_ConfigureProfile_ModeBranchSBC"/></classes></test>
+ <test name="PC_LG_01_ProfilesConfiguration_Logging_CreateProfile_ModeBranchSBC"><classes><class name="com.profiles.configuration.logging.PC_LG_01_ProfilesConfiguration_Logging_CreateProfile_ModeBranchSBC"/></classes></test>
+ <test name="PC_LG_02_ProfilesConfiguration_Logging_ConfigureProfile_ModeBranchSBC"><classes><class name="com.profiles.configuration.logging.PC_LG_02_ProfilesConfiguration_Logging_ConfigureProfile_ModeBranchSBC"/></classes></test>
+ <test name="PC_MS_01_ProfilesConfiguration_MediaServer_CreateProfile_ModeBranchSBC"><classes><class name="com.profiles.configuration.mediaserver.PC_MS_01_ProfilesConfiguration_MediaServer_CreateProfile_ModeBranchSBC"/></classes></test>
+ <test name="PC_MS_02_ProfilesConfiguration_MediaServer_ConfigureProfile_ModeBranchSBC"><classes><class name="com.profiles.configuration.mediaserver.PC_MS_02_ProfilesConfiguration_MediaServer_ConfigureProfile_ModeBranchSBC"/></classes></test>
+ <test name="PC_NS_01_ProfilesConfiguration_NetworkServices_CreateProfile_ModeBranchSBC"><classes><class name="com.profiles.configuration.networkservices.PC_NS_01_ProfilesConfiguration_NetworkServices_CreateProfile_ModeBranchSBC"/></classes></test>
+ <test name="PC_NS_02_ProfilesConfiguration_NetworkServices_ConfigureProfile_ModeBranchSBC"><classes><class name="com.profiles.configuration.networkservices.PC_NS_02_ProfilesConfiguration_NetworkServices_ConfigureProfile_ModeBranchSBC"/></classes></test>
+ <test name="PC_SC_01_ProfilesConfiguration_Security_CreateProfile_ModeBranchSBC"><classes><class name="com.profiles.configuration.security.PC_SC_01_ProfilesConfiguration_Security_CreateProfile_ModeBranchSBC"/></classes></test>
+ <test name="PC_SC_02_ProfilesConfiguration_Security_ConfigureProfile_ModeBranchSBC"><classes><class name="com.profiles.configuration.security.PC_SC_02_ProfilesConfiguration_Security_ConfigureProfile_ModeBranchSBC"/></classes></test>
+ <test name="PC_SV_01_ProfilesConfiguration_Survivability_CreateProfile_ModeBranchSBC"><classes><class name="com.profiles.configuration.survivability.PC_SV_01_ProfilesConfiguration_Survivability_CreateProfile_ModeBranchSBC"/></classes></test>
+ <test name="PC_SV_02_ProfilesConfiguration_Survivability_ConfigureProfile_ModeBranchSBC"><classes><class name="com.profiles.configuration.survivability.PC_SV_02_ProfilesConfiguration_Survivability_ConfigureProfile_ModeBranchSBC"/></classes></test>
+ <test name="PC_VP_01_ProfilesConfiguration_Voip_CreateProfile_ModeBranchSBC"><classes><class name="com.profiles.configuration.voip.PC_VP_01_ProfilesConfiguration_Voip_CreateProfile_ModeBranchSBC"/></classes></test>
+ <test name="PC_VP_02_ProfilesConfiguration_Voip_ConfigureProfile_ModeBranchSBC"><classes><class name="com.profiles.configuration.voip.PC_VP_02_ProfilesConfiguration_Voip_ConfigureProfile_ModeBranchSBC"/></classes></test>
+   </suite>

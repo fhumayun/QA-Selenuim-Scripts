@@ -1,0 +1,24 @@
+<suite name="18_JobManagement" parallel="false" fileFragmentationLevel="2" preserve-order="true">
+  <listeners>  
+    <listener class-name="org.uncommons.reportng.HTMLReporter" />  
+	<listener class-name="com.Seleniumhelper.listeners.MyRetryListener" />
+  </listeners> 
+ <test name="JM01_JobManagement_GUIElemets_DefaultValues"><classes><class name="com.administration.jobmanagement.JM01_JobManagement_GUIElemets_DefaultValues"/></classes></test>
+ <test name="JM02_JobManagement_CheckVersionAndImageType"><classes><class name="com.administration.jobmanagement.JM02_JobManagement_CheckVersionAndImageType"/></classes></test>
+ <test name="JM03_JobManagement_AddImmediateTranferWavFile"><classes><class name="com.administration.jobmanagement.JM03_JobManagement_AddImmediateTranferWavFile"/></classes></test>
+ <test name="JM04_JobManagement_CloneImmediateTranferWavFile"><classes><class name="com.administration.jobmanagement.JM04_JobManagement_CloneImmediateTranferWavFile"/></classes></test>
+ <test name="JM05_JobManagement_AddImmediateTranfer"><classes><class name="com.administration.jobmanagement.JM05_JobManagement_AddImmediateTranfer"/></classes></test>
+ <test name="JM06_JobManagement_CloneImmediateTranfer"><classes><class name="com.administration.jobmanagement.JM06_JobManagement_CloneImmediateTranfer"/></classes></test>
+ <test name="JM07_JobManagement_AddImmediateAssignProfile"><classes><class name="com.administration.jobmanagement.JM07_JobManagement_AddImmediateAssignProfile"/></classes></test>
+ <test name="JM08_JobManagement_CloneImmediateAssignProfileCancel"><classes><class name="com.administration.jobmanagement.JM08_JobManagement_CloneImmediateAssignProfileCancel"/></classes></test>
+ <test name="JM09_JobManagement_AddScheduledTranferWavFile"><classes><class name="com.administration.jobmanagement.JM09_JobManagement_AddScheduledTranferWavFile"/></classes></test>
+ <test name="JM10_JobManagement_AddScheduledTranfer"><classes><class name="com.administration.jobmanagement.JM10_JobManagement_AddScheduledTranfer"/></classes></test>
+ <test name="JM11_JobManagement_AddScheduledAssignProfileCancelViaPopUP"><classes><class name="com.administration.jobmanagement.JM11_JobManagement_AddScheduledAssignProfileCancelViaPopUP"/></classes></test>
+ <test name="JM12_JobManagement_DeleteNode"><classes><class name="com.administration.jobmanagement.JM12_JobManagement_DeleteNode"/></classes></test>
+ <test name="JM13_JobManagement_EditImmediateTranferFails"><classes><class name="com.administration.jobmanagement.JM13_JobManagement_EditImmediateTranferFails"/></classes></test>
+ <test name="JM14_JobManagement_EditScheduledTranfer"><classes><class name="com.administration.jobmanagement.JM14_JobManagement_EditScheduledTranfer"/></classes></test>
+ <test name="JM15_JobManagement_CheckFiltering"><classes><class name="com.administration.jobmanagement.JM15_JobManagement_CheckFiltering"/></classes></test>
+ <test name="JM16_Profiles_JobManagement_AddImmediateTranferWavFile"><classes><class name="com.administration.jobmanagement.JM16_Profiles_JobManagement_AddImmediateTranferWavFile"/></classes></test>
+ <test name="JM17_Profiles_JobManagement_AddScheduledTranferWavFile"><classes><class name="com.administration.jobmanagement.JM17_Profiles_JobManagement_AddScheduledTranferWavFile"/></classes></test>
+ <test name="JM18_JobManagement_DeleteJob"><classes><class name="com.administration.jobmanagement.JM18_JobManagement_DeleteJob"/></classes></test>
+    </suite>

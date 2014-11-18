@@ -1,0 +1,21 @@
+<suite name="15_ProfilesConfigurationModeProxy" parallel="false" fileFragmentationLevel="2" preserve-order="true">
+  <listeners>  
+    <listener class-name="org.uncommons.reportng.HTMLReporter" />  
+	<listener class-name="com.Seleniumhelper.listeners.MyRetryListener" />
+  </listeners> 
+ <test name="ST_ImportMode_Proxy"><classes><class name="com.administration.configuration.system.ST_ImportMode_Proxy"/></classes></test>
+ <test name="PC_AL_05_ProfilesConfiguration_Alarms_CreateProfile_ModeProxy"><classes><class name="com.profiles.configuration.alarms.PC_AL_05_ProfilesConfiguration_Alarms_CreateProfile_ModeProxy"/></classes></test>
+ <test name="PC_AL_06_ProfilesConfiguration_Alarms_ConfigureProfile_ModeProxy"><classes><class name="com.profiles.configuration.alarms.PC_AL_06_ProfilesConfiguration_Alarms_ConfigureProfile_ModeProxy"/></classes></test>
+ <test name="PC_LG_05_ProfilesConfiguration_Logging_CreateProfile_ModeProxy"><classes><class name="com.profiles.configuration.logging.PC_LG_05_ProfilesConfiguration_Logging_CreateProfile_ModeProxy"/></classes></test>
+ <test name="PC_LG_06_ProfilesConfiguration_Logging_ConfigureProfile_ModeProxy"><classes><class name="com.profiles.configuration.logging.PC_LG_06_ProfilesConfiguration_Logging_ConfigureProfile_ModeProxy"/></classes></test>
+ <test name="PC_MS_05_ProfilesConfiguration_MediaServer_CreateProfile_ModeProxy"><classes><class name="com.profiles.configuration.mediaserver.PC_MS_05_ProfilesConfiguration_MediaServer_CreateProfile_ModeProxy"/></classes></test>
+ <test name="PC_MS_06_ProfilesConfiguration_MediaServer_ConfigureProfile_ModeProxy"><classes><class name="com.profiles.configuration.mediaserver.PC_MS_06_ProfilesConfiguration_MediaServer_ConfigureProfile_ModeProxy"/></classes></test>
+ <test name="PC_NS_05_ProfilesConfiguration_NetworkServices_CreateProfile_ModeProxy"><classes><class name="com.profiles.configuration.networkservices.PC_NS_05_ProfilesConfiguration_NetworkServices_CreateProfile_ModeProxy"/></classes></test>
+ <test name="PC_NS_06_ProfilesConfiguration_NetworkServices_ConfigureProfile_ModeProxy"><classes><class name="com.profiles.configuration.networkservices.PC_NS_06_ProfilesConfiguration_NetworkServices_ConfigureProfile_ModeProxy"/></classes></test>
+ <test name="PC_SC_05_ProfilesConfiguration_Security_CreateProfile_ModeProxy"><classes><class name="com.profiles.configuration.security.PC_SC_05_ProfilesConfiguration_Security_CreateProfile_ModeProxy"/></classes></test>
+ <test name="PC_SC_06_ProfilesConfiguration_Security_ConfigureProfile_ModeProxy"><classes><class name="com.profiles.configuration.security.PC_SC_06_ProfilesConfiguration_Security_ConfigureProfile_ModeProxy"/></classes></test>
+ <test name="PC_SV_05_ProfilesConfiguration_Survivability_CreateProfile_ModeProxy"><classes><class name="com.profiles.configuration.survivability.PC_SV_05_ProfilesConfiguration_Survivability_CreateProfile_ModeProxy"/></classes></test>
+ <test name="PC_SV_06_ProfilesConfiguration_Survivability_ConfigureProfile_ModeProxy"><classes><class name="com.profiles.configuration.survivability.PC_SV_06_ProfilesConfiguration_Survivability_ConfigureProfile_ModeProxy"/></classes></test>
+ <test name="PC_VP_05_ProfilesConfiguration_Voip_CreateProfile_ModeProxy"><classes><class name="com.profiles.configuration.voip.PC_VP_05_ProfilesConfiguration_Voip_CreateProfile_ModeProxy"/></classes></test>
+ <test name="PC_VP_06_ProfilesConfiguration_Voip_ConfigureProfile_ModeProxy"><classes><class name="com.profiles.configuration.voip.PC_VP_06_ProfilesConfiguration_Voip_ConfigureProfile_ModeProxy"/></classes></test>
+   </suite>

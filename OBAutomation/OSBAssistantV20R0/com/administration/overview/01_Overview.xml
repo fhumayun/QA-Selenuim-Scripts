@@ -1,0 +1,13 @@
+<suite name="01_Overview" parallel="false" fileFragmentationLevel="2" preserve-order="true">
+  <listeners>  
+    <listener class-name="org.uncommons.reportng.HTMLReporter" />  
+	<listener class-name="com.Seleniumhelper.listeners.MyRetryListener" />
+  </listeners> 
+ <test name="OV01_BranchOfficeList_GUIElemets_DefaultValues"><classes><class name="com.administration.overview.OV01_BranchOfficeList_GUIElemets_DefaultValues"/></classes></test>
+ <test name="OV02_BranchOfficeList_RefreshButtons"><classes><class name="com.administration.overview.OV02_BranchOfficeList_RefreshButtons"/></classes></test>
+ <test name="OV03_BranchOfficeList_deleteCentralSBC"><classes><class name="com.administration.overview.OV03_BranchOfficeList_deleteCentralSBC"/></classes></test>
+ <test name="OV04_BranchOfficeList_createCentralSBC"><classes><class name="com.administration.overview.OV04_BranchOfficeList_createCentralSBC"/></classes></test>
+ <test name="OV05_BranchOfficeList_ManageButton"><classes><class name="com.administration.overview.OV05_BranchOfficeList_ManageButton"/></classes></test>
+ <test name="OV06_BranchOfficeList_Filtering"><classes><class name="com.administration.overview.OV06_BranchOfficeList_Filtering"/></classes></test>
+ <test name="OV07_BranchOfficeList_Sorting"><classes><class name="com.administration.overview.OV07_BranchOfficeList_Sorting"/></classes></test>
+  </suite>
